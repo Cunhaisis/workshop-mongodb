@@ -12,7 +12,7 @@ import com.devisis.workshopmongo.domain.Post;
 import com.devisis.workshopmongo.services.PostService;
 
 @RestController
-@RequestMapping(value = "/users")
+@RequestMapping(value = "/posts")
 public class PostResource {
 
 	@Autowired
